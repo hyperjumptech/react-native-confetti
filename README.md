@@ -61,7 +61,7 @@ yarn add @hyperjumptech/react-native-confetti
 import package
 
 ```javascript
-import {Confetti} from '../react-native-confetti';
+import {Confetti} from '@hyperjumptech/react-native-confetti';
 ```
 
 then put the component inside render
@@ -75,7 +75,7 @@ then put the component inside render
 import package
 
 ```javascript
-import {Confetti, fetchConfettiFromFirebase} from '../react-native-confetti';
+import {Confetti, fetchConfettiFromFirebase} from '@hyperjumptech/react-native-confetti';
 ```
 
 define state to hold the parameters
@@ -183,13 +183,8 @@ To test, run `npm run test` or `yarn test`
 
 To see the running demo, you can run the example app with these steps:
 
-1. build the package from the root directory of this repository
 
-```
-yarn build
-```
-
-2. change directory to `example`
+1. change directory to `example`
 
 ```
 cd example
@@ -199,6 +194,12 @@ cd example
 
 ```
 yarn
+```
+
+or
+
+```
+npm install
 ```
 
 4. run android
