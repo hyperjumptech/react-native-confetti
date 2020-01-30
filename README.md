@@ -21,7 +21,7 @@ This is some example
 # Getting Started
 ## Dependencies
 To be able to dynamically enabling confetti or change the character, your react native app must:
-1. Install [react-native-firebase](https://rnfirebase.io/) (the Core modeule and Remote Ronfig module)
+1. Install [react-native-firebase](https://rnfirebase.io/) (the Core module and Remote Config module)
 2. Set up your app to use Firebase
 3. Create 5 parameters with value of string in your project's remote config:
 
@@ -81,7 +81,7 @@ state = {
 
 ```
 
-define the parameters and call funtion to get data from firebase remote config
+define the parameters and call function to get data from firebase remote config
 ```
 const keys = [
   'confetti_type',
@@ -149,12 +149,12 @@ then add the `imageComponent` props
 ## API references
 Props:
 
-| props          | type                 | requied | description |
+| props          | type                 | required | description |
 | ----           | ----                 | ----    | ---         |
 | isEnabled      | boolean              | yes     | to enable or disable the confetti |
 | color          | string               | yes     | define color of character. If you use emoji or image, the color will have no effect even if it has value |
 | character      | string               | no      | the flying pieces. default character is snowflake `❅`. you can use any unicode character or emoji. if there is `imageComponent` this props will have no effect even if it has value |
-| imageComponent | ReactNode            | no      | the flying pieces (will overide `character` props) in form of react component for example: `Image` |
+| imageComponent | ReactNode            | no      | the flying pieces (will override `character` props) in form of react component for example: `Image` |
 | effect         | enum[`snow`, `shake`]| yes     | `snow` to get only vertical falling animation , `shake` to get additional horizontal shaking animation|
 
 # Build and Test
@@ -163,7 +163,7 @@ To build, run `npm run build` or `yarn build`
 To test, run `npm run test` or `yarn test`
 
 # Demo
-To see the running demo, you can run the example app with theese steps:
+To see the running demo, you can run the example app with these steps:
 
 1. build package
 ```
