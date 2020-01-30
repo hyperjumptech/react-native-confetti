@@ -15,7 +15,10 @@
     "static-code-analysis": "yarn tslint && yarn typecheck && yarn check-format",
     "dynamic-code-analysis": "jest --coverage",
     "jest": "jest",
-    "build": "rm -rf build && ./node_modules/typescript/bin/tsc"
+    "build": "rm -rf build && tsc",
+    "clean": "rm -rf build && rm -rf dist",
+    "build-module": "npm run clean && NODE_ENV=production tsc && publish-flat -f build -o dist",
+    "publish-module": "npm run build-module && cd dist && npm publish"
   },
   "jest": {
     "preset": "react-native",
@@ -43,6 +46,7 @@
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.58.0",
     "prettier": "^1.19.1",
+    "publish-flat": "^1.4.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-native": "^0.61.5",
