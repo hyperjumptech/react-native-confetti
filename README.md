@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/hyperjumptech/react-native-confetti.svg?branch=master)](https://travis-ci.org/hyperjumptech/react-native-confetti)
+[![Build Status](https://dev.azure.com/hyperjumptech/react-native-confetti/_apis/build/status/hyperjumptech.react-native-confetti?branchName=master)](https://dev.azure.com/hyperjumptech/react-native-confetti/_build/latest?definitionId=1&branchName=master)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # Introduction 
 React native component to show [confetti](https://en.wikipedia.org/wiki/Confetti). It can be used as raining snow effect animation, with option to use unicode / emoji or use image as the flying pieces.
 
