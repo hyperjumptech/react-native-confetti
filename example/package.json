@@ -10,7 +10,6 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@hyperjumptech/react-native-confetti": "file:../build",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-firebase": "^5.6.0"
