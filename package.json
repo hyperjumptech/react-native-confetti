@@ -27,6 +27,14 @@
   "keywords": [
     "react-native"
   ],
+  "bugs": {
+    "url": "https://github.com/hyperjumptech/react-native-confetti"
+  },
+  "homepage": "https://github.com/hyperjumptech/react-native-confetti",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperjumptech/react-native-confetti"
+  },
   "author": "Raosan Fikri <raosan@hyperjump.tech>",
   "license": "Apache-2.0",
   "peerDependencies": {},
