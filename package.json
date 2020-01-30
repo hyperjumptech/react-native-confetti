@@ -1,0 +1,64 @@
+{
+  "name": "@hyperjumptech/react-native-confetti",
+  "version": "0.1.0",
+  "description": "React native component to show confetti",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "test": "yarn static-code-analysis && yarn dynamic-code-analysis",
+    "format": "prettier --write \"src/*.{ts,tsx}\"",
+    "tslint": "tslint -p .",
+    "typecheck": "tsc --noEmit",
+    "check-format": "prettier --check \"src/*.{ts,tsx}\"",
+    "static-code-analysis": "yarn tslint && yarn typecheck && yarn check-format",
+    "dynamic-code-analysis": "jest --coverage",
+    "jest": "jest",
+    "build": "rm -rf build && ./node_modules/typescript/bin/tsc"
+  },
+  "jest": {
+    "preset": "react-native",
+    "testEnvironment": "jsdom"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Raosan Fikri <raosan@hyperjump.tech>",
+  "license": "Apache-2.0",
+  "peerDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "@testing-library/jest-dom": "^5.0.2",
+    "@testing-library/jest-native": "^3.1.0",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/react-native": "^5.0.3",
+    "@types/jest": "^25.1.0",
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.5",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-native": "^0.61.5",
+    "react-native-firebase": "^5.6.0",
+    "react-test-renderer": "^16.12.0",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
+  },
+  "dependencies": {
+    "@types/react-test-renderer": "^16.9.2"
+  }
+}

@@ -1,0 +1,28 @@
+jobs:
+
+- job: Linux
+  pool:
+    vmImage: 'ubuntu-16.04'
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '12.x'
+    displayName: 'Install Node.js'
+  - script: yarn install
+    displayName: 'yarn install --frozen-lockfile'
+  - script: yarn test
+    displayName: 'Run the tests'
+
+- job: macOS
+  pool:
+    vmImage: 'macOS-10.13'
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '12.x'
+    displayName: 'Install Node.js'
+  - script: yarn install
+    displayName: 'yarn install --frozen-lockfile'
+  - script: yarn test
+    displayName: 'Run the tests'
+

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "975673961613",
+    "firebase_url": "https://rnconfettiexample.firebaseio.com",
+    "project_id": "rnconfettiexample",
+    "storage_bucket": "rnconfettiexample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975673961613:android:4fe44eaf4aad8f90c506c4",
+        "android_client_info": {
+          "package_name": "com.rnconfettiexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975673961613-grqaflg83coejll9p59hai41df5o8cpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh_zQ4k581N8OGOmgM0AgB-csQjMFe1KE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975673961613-grqaflg83coejll9p59hai41df5o8cpp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "975673961613-lgv6rn29jkbja1drkacu0kgag30s9ngd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.RNConfettiExample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
