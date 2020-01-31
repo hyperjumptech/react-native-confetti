@@ -50,6 +50,7 @@
     "@types/jest": "^25.1.0",
     "@types/react": "^16.9.19",
     "@types/react-native": "^0.61.5",
+    "@types/react-test-renderer": "^16.9.2",
     "babel-jest": "^25.1.0",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.58.0",
@@ -69,8 +70,5 @@
     "singleQuote": true,
     "trailingComma": "all",
     "arrowParens": "always"
-  },
-  "dependencies": {
-    "@types/react-test-renderer": "^16.9.2"
   }
 }
