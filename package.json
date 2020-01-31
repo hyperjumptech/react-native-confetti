@@ -70,6 +70,5 @@
     "singleQuote": true,
     "trailingComma": "all",
     "arrowParens": "always"
-  },
-  "dependencies": {}
+  }
 }
