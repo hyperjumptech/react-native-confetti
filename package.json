@@ -1,6 +1,6 @@
 {
   "name": "@hyperjumptech/react-native-confetti",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React native component to show confetti",
   "main": "build/index.js",
   "files": [
