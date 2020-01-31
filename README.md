@@ -10,15 +10,13 @@ This is some example
 
 ## snow effect
 
-![snow-android](demo/snow-android.gif)
-![snow-ios](demo/snow-ios.gif)
+<img src="https://github.com/hyperjumptech/react-native-confetti/blob/master/demo/snow-android.gif?raw=true" width="320" /><img src="https://github.com/hyperjumptech/react-native-confetti/blob/master/demo/snow-ios.gif?raw=true" width="320" />
 
 (the animation is not lagging. it's because you need to wait for the gif asset to load)
 
 ## shake effect
 
-![shake-android](demo/shake-android.gif)
-![shake-ios](demo/shake-ios.gif)
+<img src="https://github.com/hyperjumptech/react-native-confetti/blob/master/demo/shake-android.gif?raw=true" width="320" /><img src="https://github.com/hyperjumptech/react-native-confetti/blob/master/demo/shake-ios.gif?raw=true" width="320" />
 
 (the animation is not lagging. it's because you need to wait for the gif asset to load)
 
