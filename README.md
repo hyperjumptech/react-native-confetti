@@ -75,7 +75,10 @@ then put the component inside render
 import package
 
 ```javascript
-import {Confetti, fetchConfettiFromFirebase} from '@hyperjumptech/react-native-confetti';
+import {
+  Confetti,
+  fetchConfettiFromFirebase,
+} from '@hyperjumptech/react-native-confetti';
 ```
 
 define state to hold the parameters
@@ -103,7 +106,14 @@ const keys = [
   'confetti_image_name',
 ];
 
-fetchConfetti(keys).then((confetti) => {
+fetchConfetti(keys).then((data) => {
+  const confetti = {
+    confetti_type: data.confetti_type,
+    confetti_color: data.confetti_color,
+    confetti_character: data.confetti_character,
+    confetti_enabled: data.confetti_enabled === '1' ? true : false,
+    confetti_image_name: data.confetti_image_name,
+  };
   this.setState({confetti});
 });
 ```
@@ -182,7 +192,6 @@ To test, run `npm run test` or `yarn test`
 # Demo
 
 To see the running demo, you can run the example app with these steps:
-
 
 1. change directory to `example`
 
