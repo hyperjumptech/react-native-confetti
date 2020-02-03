@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/hyperjumptech/react-native-confetti.svg?branch=master)](https://travis-ci.org/hyperjumptech/react-native-confetti)
 [![Build Status](https://dev.azure.com/hyperjumptech/react-native-confetti/_apis/build/status/hyperjumptech.react-native-confetti?branchName=master)](https://dev.azure.com/hyperjumptech/react-native-confetti/_build/latest?definitionId=1&branchName=master)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./CONTRIBUTING.md)
 
 # Introduction
 
