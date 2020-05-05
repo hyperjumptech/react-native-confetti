@@ -3,5 +3,5 @@ yarn-error.log
 build/
 dist/
 coverage/
-
+example/package-lock.json
 .gradle
